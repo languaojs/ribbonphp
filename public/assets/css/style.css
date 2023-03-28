@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #fdfdfd;
+}
+
+footer {
+    flex: 0 0 50px;
+    margin-top: auto
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 90%;
+    color: rgb(44, 43, 43);
+}
+
+ol{
+    margin-left: 20px;
+}
