@@ -14,6 +14,5 @@
             <li><b>Create a View:</b> A view is mandatory if a method in a controller has its frontend. To create a view, go to <code>ribbon/ribbon_views/</code> directory and create a directory for the controller frontend. By default, you have <code>home</code> directory as the "container" for controller <code>home</code> frontend.</li>
         </ol>
         <br>
-        <p><a href="#">Full RibbonPHP Documentation</a></p>
     </div>
 </div>
