@@ -9,7 +9,7 @@
             "email": "languaojs@gmail.com"
         }
     ],
-    "minimum-stability": "beta",
+    "minimum-stability": "stable",
     "require": {
         "php":">=7.4.26"
     }
