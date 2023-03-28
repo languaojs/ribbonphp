@@ -9,8 +9,13 @@
             "email": "languaojs@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "beta",
     "require": {
         "php":">=7.4.26"
+    },
+    "autoload": {
+        "psr-0": {
+            "Hello":"src/"
+        }
     }
 }
