@@ -1,0 +1,16 @@
+{
+    "name": "languaojs/ribbonphp",
+    "description": "The simplest PHP MVC Framework today.",
+    "type": "framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zainurrahman",
+            "email": "languaojs@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "php":">=7.4.26"
+    }
+}
