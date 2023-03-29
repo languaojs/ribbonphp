@@ -5,7 +5,7 @@
 
 RibbonPHP is a pure PHP framework that will help you to build your PHP application of any kind. It is designed to be used for both novices and pros.
 
-## How to use it?
+## Install using composer?
 
 1. Install XAMPP or WAMP to your machine
 2. Install Composer
@@ -15,7 +15,7 @@ RibbonPHP is a pure PHP framework that will help you to build your PHP applicati
 6. Composer will download all directories and files into `vendor` while you only need the `ribbonphp` directory and its contents. So, copy the `ribbonphp` directory (it is inside the `languaojs` directory) and paste the directory to your *htdocs* or *www* directory.
 7. Run your local server and go to `localhost/ribbonphp`
 
-## How to use it without composer?
+## Install using Git Clone?
 1. Install XAMPP or WAMP to your machine
 2. Install Visual Studio Code (VSCode)
 3. Open VSCode and its terminal
