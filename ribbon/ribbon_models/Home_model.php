@@ -10,6 +10,7 @@ class Home_model{
 
     function getTestClass(){
         
+        // requiring a library
         require LIBS_DIR . '/test/TestClass.php';
         $newTestClass = new TestClass;
         $string = $newTestClass->getString();

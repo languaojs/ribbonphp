@@ -14,9 +14,9 @@ class Database {
     protected $query_closed = TRUE;
 
 	//database information
-	protected $dbhost = 'localhost';
-	protected $dbname = 'mbti';
-	protected $dbuser = 'root';
+	protected $dbhost = '';
+	protected $dbname = '';
+	protected $dbuser = '';
 	protected $dbpass = '';
 
 	
