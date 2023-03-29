@@ -15,6 +15,14 @@ RibbonPHP is a pure PHP framework that will help you to build your PHP applicati
 6. Composer will download all directories and files into `vendor` while you only need the `ribbonphp` directory and its contents. So, copy the `ribbonphp` directory (it is inside the `languaojs` directory) and paste the directory to your *htdocs* or *www* directory.
 7. Run your local server and go to `localhost/ribbonphp`
 
+## How to use it without composer?
+1. Install XAMPP or WAMP to your machine
+2. Install Visual Studio Code (VSCode)
+3. Open VSCode and its terminal
+4. Direct the terminal to the htdocs or www directory
+5. Run `git clone https://github.com/languaojs/ribbonphp.git` from the terminal
+6. Run your localserver and go to `localhost/ribbonphp`
+
 ## Next step
 
 You may need to rename the directory name (e.g. myapp). After rename the directory, go to `ribbon/ribbon_core/Config.php` and adjust the value of `APP_ROOT`.
