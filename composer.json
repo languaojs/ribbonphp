@@ -1,8 +1,8 @@
 {
     "name": "languaojs/ribbonphp",
     "description": "The simplest PHP MVC Framework today.",
-    "type": "framework",
-    "license": "MIT",
+    "type": "packages",
+    "license": "cc-by-4.0",
     "authors": [
         {
             "name": "Zainurrahman",
