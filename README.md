@@ -25,6 +25,6 @@ RibbonPHP is a pure PHP framework that will help you to build your PHP applicati
 
 ## Next step
 
-You may need to rename the directory name (e.g. myapp). After rename the directory, go to `ribbon/ribbon_core/Config.php` and adjust the value of `APP_ROOT`.
+You may need to rename the directory name (e.g. myapp). After rename the directory, go to `ribbon/ribbon_core/Config.php` and adjust the value of `APP_ROOT` and your database information.
 
 This is a Beta version. I will soon create a full documentation of how to use RibbonPHP and update this Readme file. Currently, you can visit [RibbonPHP Blog](https://ribbonphp.blogspot.com).
