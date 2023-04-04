@@ -9,10 +9,10 @@ RibbonPHP is a pure PHP framework that will help you to build your PHP applicati
 
 1. Install XAMPP or WAMP to your machine
 2. Install Composer
-3. Enter the *htdocs* (for XAMPP) or *www* (for WAMP) directory. Create a new directory with whatever name.
-4. Open your code editor, direct to the new-made directory, and run the terminal
+3. Enter the *htdocs* (for XAMPP) or *www* (for WAMP) directory.
+4. Open your code editor, direct to the directory (number 3), and run the terminal
 5. Type `composer create-project languaojs/ribbonphp:dev-main`
-6. Composer will download all directories and files into `vendor` while you only need the `ribbonphp` directory and its contents. So, copy the `ribbonphp` directory (it is inside the `languaojs` directory) and paste the directory to your *htdocs* or *www* directory.
+6. Composer will download ribbonphp directory. You can remove the vendor directory.
 7. Run your local server and go to `localhost/ribbonphp`
 
 ## Install using Git Clone?
