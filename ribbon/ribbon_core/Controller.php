@@ -7,13 +7,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET' && realpath(__FILE__) == realpath($_SERV
 
 class Controller{
 
-    function loadDatabase()
-    {
-        require 'ribbon/ribbon_core/Database.php';
-        $connection = new Database();
-        return $connection;
-    }
-
     function model($model)
     {
         require_once 'ribbon/ribbon_models/' . $model . '.php';
@@ -34,6 +27,10 @@ class Controller{
     {
         require_once 'ribbon/ribbon_templates/footer/' . $template . '.php';
     }
+
+    // you can add other method to load navigation bar
+    // e.g., function loadMenu(menu-file, data-to-pass){ require_once path to the menu directory}
+    // also, you can add hero or anything you want to load within controller
 
     function sanitize($input)
     {

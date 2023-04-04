@@ -14,10 +14,10 @@ class Database {
     protected $query_closed = TRUE;
 
 	//database information
-	protected $dbhost = '';
-	protected $dbname = '';
-	protected $dbuser = '';
-	protected $dbpass = '';
+	protected $dbhost = DB_HOST;
+	protected $dbname = DB_NAME;
+	protected $dbuser = DB_USER;
+	protected $dbpass = DB_PASS;
 
 	
 	public $query_count = 0;

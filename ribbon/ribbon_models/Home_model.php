@@ -7,13 +7,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET' && realpath(__FILE__) == realpath($_SERV
 
 class Home_model{
 
+    //if this model work with database
 
-    function getTestClass(){
-        
-        // requiring a library
-        require LIBS_DIR . '/test/TestClass.php';
-        $newTestClass = new TestClass;
-        $string = $newTestClass->getString();
-        return $string;
+    protected $con;
+    function __construct()
+    {
+        $this->con = new Database();
     }
+    
 }

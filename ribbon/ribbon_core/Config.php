@@ -5,6 +5,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET' && realpath(__FILE__) == realpath($_SERV
     die("<h2>Access Denied</h2> <p>This file is protected!</p>");
 }
 
+//root directory
 define('APP_ROOT', 'http://localhost/ribbonphp');
 
+//database information
+define('DB_HOST','');
+define('DB_USER','');
+define('DB_PASS','');
+define('DB_NAME','');
 
