@@ -3,7 +3,7 @@
     "description": "The simplest PHP MVC Framework today.",
     "type": "project",
     "license": "cc-by-4.0",
-    "homepage":"https://ribbonphp.blogspot.com",
+    "homepage": "https://ribbonphp.blogspot.com",
     "authors": [
         {
             "name": "Zainurrahman",
@@ -12,6 +12,12 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php":">=7.4.26"
-    }
+        "languaojs/ribbonphp": "v0.1.0-beta.1"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/languaojs/ribbonphp"
+        }
+    ]
 }
