@@ -6,7 +6,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET' && realpath(__FILE__) == realpath($_SERV
 }
 
 //root directory
-define('APP_ROOT', 'http://localhost/ribbonphp');
+define('APP_ROOT', 'http://localhost/ribbonphp'); //replace the value with one that is appropriate
+define('ENV', 'dev'); // dev for development and prod for production
 
 //database information
 define('DB_HOST','');
