@@ -12,7 +12,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "languaojs/ribbonphp": "v0.1.0-beta.1"
+        "languaojs/ribbonphp": "dev-main"
     },
     "repositories": [
         {
