@@ -16,7 +16,7 @@ class Router
     {
         $url = $this->parseUrl();
         if (!empty($url[0])) {
-            if (file_exists('ribbon/ribbon_controllers/' . $url[0] . '.php')) {
+            if (file_exists('ribbon/controllers/' . $url[0] . '.php')) {
                 $this->controller = $url[0];
                 unset($url[0]);
             }else{
@@ -26,7 +26,7 @@ class Router
             }
         }
 
-        require_once 'ribbon/ribbon_controllers/' . $this->controller . '.php';
+        require_once 'ribbon/controllers/' . $this->controller . '.php';
         $this->controller = new $this->controller;
 
         if (isset($url[1])) {
@@ -66,7 +66,7 @@ class Router
     function notFound()
     {
         $this->controller = 'notfound';
-        require_once 'ribbon/ribbon_controllers/' . $this->controller . '.php';
+        require_once 'ribbon/controllers/' . $this->controller . '.php';
         $this->controller = new $this->controller;
         call_user_func_array(
             [

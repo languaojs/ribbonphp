@@ -6,13 +6,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET' && realpath(__FILE__) == realpath($_SERV
 }
 
 define('LIBS_DIR', 'ribbon/ribbon_libs');
-define('JS_DIR', APP_ROOT . '/public/assets/js');
-define('IMG_DIR', APP_ROOT . '/public/assets/img');
+define('JS_DIR', APP_ROOT . '/ribbon/assets/js');
+define('IMG_DIR', APP_ROOT . '/ribbon/assets/img');
 
 if(ENV == 'dev'){
-    $css_dir = APP_ROOT . '/public/assets/css';
+    $css_dir = APP_ROOT . '/ribbon/assets/css';
 }elseif(ENV == 'prod'){
-    $css_dir = '/public/assets/css';
+    $css_dir = '/ribbon/assets/css';
 }
 
 define('CSS_DIR', $css_dir);

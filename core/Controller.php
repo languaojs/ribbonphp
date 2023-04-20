@@ -9,23 +9,28 @@ class Controller{
 
     function model($model)
     {
-        require_once 'ribbon/ribbon_models/' . $model . '.php';
+        require_once 'ribbon/models/' . $model . '.php';
         return new $model;
     }
 
     function loadHeader($template, $header=[])
     {
-        require_once 'ribbon/ribbon_templates/header/' . $template . '.php';
+        require_once 'ribbon/templates/header/' . $template . '.php';
+    }
+
+    function loadMenu($template, $menu=[])
+    {
+        require_once 'ribbon/templates/menu/' . $template . '.php';
     }
 
     function view($view, $data=[])
     {
-        require_once 'ribbon/ribbon_views/' . $view . '.php';
+        require_once 'ribbon/views/' . $view . '.php';
     }
 
     function loadFooter($template, $footer=[])
     {
-        require_once 'ribbon/ribbon_templates/footer/' . $template . '.php';
+        require_once 'ribbon/templates/footer/' . $template . '.php';
     }
 
     // you can add other method to load navigation bar
